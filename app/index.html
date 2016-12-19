@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<title>Chemito</title>
+  	<!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/style.css">
+
+  	<script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      
+      <div class="row heading affix" data-spy="affix">
+        <div class="col-xs-9">Select required functions</div>
+        <div class="col-xs-3" id="btnSubmit">Submit</div>
+      </div>
+    	
+      <div class="row">
+      	<div class="col-xs-12" id="funcsContainer"></div>
+      </div>
+
+      <div id="productsContainer" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">The Products matching your requirements are -</h4>
+            </div>
+            <div class="modal-body">
+              <ul id="listOfProds"></ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </div>
+  </body>
+</html>
