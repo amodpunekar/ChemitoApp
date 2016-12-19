@@ -1,0 +1,81 @@
+
+body,*{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.heading{
+	
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	box-shadow: 0 0 8px rgba(0,0,0,0.5);
+	z-index: 100;
+	background-color: white;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index: 100 !important;
+}
+
+#funcsContainer{
+	position: fixed;
+	padding-bottom: 50px;
+	top: 50px;
+	height: 100%;
+	overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.func{
+	padding: 10px;
+	margin-bottom: 1px;
+	background-color: lightgrey;
+	cursor: pointer;
+}
+
+.handCursor{
+	cursor: pointer;
+}
+
+.funcSel{
+	background-color: aqua;
+}
+
+#btnSubmit{
+	font-size: 16px;
+	line-height: 50px;
+	background-color: #FF9501;
+	cursor: pointer;
+}
+
+
+#productsContainer{
+	
+}
+
+#products{
+	position: absolute;
+	margin: auto;
+	padding: 10px;
+	width: 90%;
+	height: 90%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	box-shadow: 0 0 10px #000000;
+}
